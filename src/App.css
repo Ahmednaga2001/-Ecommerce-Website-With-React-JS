@@ -1,0 +1,75 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+header{
+  background-color: pink;
+  position: relative;
+
+  width: 100%;
+
+
+}
+
+header .icon{
+  position: relative;
+}
+header .circle{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background:red;
+  color: white;
+display: flex;
+justify-content: center;
+align-items: center;
+  position: absolute;
+  top : 20px
+
+}
+.hero{
+  min-height: 100vh;
+  background-color: rgba(255, 192, 203, 0.416);
+}
+.hero .content{
+  padding-top: 200px;
+}
+.products .card{
+  position: relative;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+ 
+  color: #fff;
+  opacity: 0;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}
+.details-section{
+  padding-top: 100px;
+}
+.cart-section {
+ 
+  background-color: #f8f8f8;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  margin: 20px;
+  position: fixed;
+  padding: 50px;
+  right: 20px;
+  z-index: 5;
+  max-height: 100vh;
+  overflow-y: auto;
+}
+
+
+
+
+
+
+
